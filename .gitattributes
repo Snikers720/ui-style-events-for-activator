@@ -1,0 +1,13 @@
+# This file is used to override language statistics
+# Exclude build artifacts 
+*.ico binary
+*.jpeg binary
+Cargo.lock linguist-generated   
+go.sum linguist-generated   
+
+build/* linguist-vendored
+*.htm linguist-vendored
+src/**/*.astro linguist-detectable
+*.min.js linguist-generated 
+
+# eof 75ff1472
